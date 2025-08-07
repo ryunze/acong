@@ -4,10 +4,10 @@
     "version": "1.0",
     "manifest_version": 3,
     "icons": {
-        "16": "icon16.png",
-        "32": "icon32.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
     },
     "action": {
         "default_popup": "index.html"
@@ -17,13 +17,10 @@
         "scripting",
         "tabs"
     ],
-    "background": {
-        "service_worker": "background.js"
-    },
     "host_permissions": ["https://cboss.kreditpintar.com/*"],
     "content_scripts": [{
         "matches": ["https://cboss.kreditpintar.com/*"],
-        "css": ["themes/cyberpunk.css", "content.css"],
+        "css": ["themes/default/theme.css", "content.css"],
         "js": ["core.js", "content.js"],
         "run_at": "document_idle"
     }]

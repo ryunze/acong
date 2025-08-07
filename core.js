@@ -24,6 +24,10 @@ function init_dashboard_card() {
 
     const dashboardCard = document.querySelector('.case-center .el-card.box-card.is-always-shadow');
 
+if (dashboardCard == null) {
+	return false;
+}
+
     const toggle = document.createElement('div');
     toggle.setAttribute('class', 'dashboard-card-toggle');
 

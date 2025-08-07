@@ -91,7 +91,6 @@ font-weight: bold !important;
 }
 
 /* Sembunyikan Watermark, Status Sinyal */
-#watermark,
 .network-dialog {
     display: none !important;
 }

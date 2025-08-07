@@ -2,8 +2,6 @@ console.log("ACONG V1 Loaded!");
 
 let switchWatermarkStatus;
 
-init_dashboard_card();
-
 // ### Init. Watermark
 chrome.storage.local.get("switchWatermark", (result) => {
     switchWatermarkStatus = result.switchWatermark || false;
@@ -57,3 +55,5 @@ chrome.storage.onChanged.addListener((changes, area) => {
     }
     
 });
+
+init_dashboard_card();
