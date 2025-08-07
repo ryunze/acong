@@ -1,0 +1,48 @@
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.logo img {
+    height: auto;
+}
+
+.case-center .el-card.box-card.is-always-shadow:first-child {
+	min-height: 475px !important;
+    background-color: #ffffff;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.case-center .el-card.box-card.is-always-shadow:first-child form, .case-center .el-card.box-card.is-always-shadow:first-child div.footer {
+	display: none;
+}
+
+/* Dashboard */
+.dashboard-card-toggle {
+    width: 36px;
+    height: 36px;
+    background: #ffffff;
+    position: absolute;
+    right: 1rem;
+    top: 207px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    transform: translateX(5rem);
+    transition: 250ms all ease-in-out;
+}
+
+.case-center .el-card.box-card.is-always-shadow:hover .dashboard-card-toggle {
+    transform: translateX(0);
+}

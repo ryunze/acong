@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Blender Pro Book";
+    src: url("https://db.onlinewebfonts.com/t/335787aa6f57d71cabe8eb5dc89c6d6b.eot");
+    src: url("https://db.onlinewebfonts.com/t/335787aa6f57d71cabe8eb5dc89c6d6b.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/335787aa6f57d71cabe8eb5dc89c6d6b.woff2")
+            format("woff2"),
+        url("https://db.onlinewebfonts.com/t/335787aa6f57d71cabe8eb5dc89c6d6b.woff")
+            format("woff"),
+        url("https://db.onlinewebfonts.com/t/335787aa6f57d71cabe8eb5dc89c6d6b.ttf")
+            format("truetype"),
+        url("https://db.onlinewebfonts.com/t/335787aa6f57d71cabe8eb5dc89c6d6b.svg#Blender Pro Book")
+            format("svg");
+}
+
+html,
+body {
+    background-color: #000 !important;
+    color: #000 !important;
+    font-family: "Blender Pro Book", serif !important;
+}
+
+/* Reset Font Size */
+div,
+label,
+span,
+b,
+li.ivu-select-item {
+    font-size: 16px !important;
+}
+
+/* Reset Background Color */
+.login-page,
+.el-loading-mask,
+.el-container.main-content,
+.el-collapse-item__content,
+.sidebar,
+.logo {
+background: #000 !important;
+}
+
+/* Dashboard: Sidebar */
+.logo:after {
+background: #000 !important;
+}
+
+.sidebar {
+border-right: 2px solid #00f4ff !important;
+}
+
+.sidebar .el-menu-item, .site-header {
+background-color: #000 !important;
+background: #000 !important;
+}
+
+.sidebar .el-menu-item.is-active {
+background-color: #000 !important;
+background: #000 !important;
+color: #00f4ff !important;
+font-weight: bold !important;
+border: 2px solid #00f4ff !important;
+border-right: none !important;
+}
+
+.site-header,
+.site-header .username {
+border-bottom: 2px solid #00f4ff !important;
+color: #00f4ff !important;
+}
+
+.site-header .username {
+border: none !important;
+font-weight: bold !important;
+}
+
+/* Reset Border */
+.card-border,
+.el-collapse,
+.el-collapse-item__wrap {
+	border-color: #000 !important;
+}
+
+/* Buttons */
+.el-button--primary,
+.el-pagination.is-background .el-pager li:not(.disabled).active,
+.ivu-btn-success {
+    color: #000 !important;
+    background-color: #ffed1b !important;
+    border-color: #000 !important;
+	font-weight: bold !important;
+}
+
+/* Sembunyikan Watermark, Status Sinyal */
+#watermark,
+.network-dialog {
+    display: none !important;
+}
+
+/* Dashboard: Tab */
+.el-tabs__item {
+color: #ffed1b !important;
+}
+
+.el-tabs__item.is-top.is-active {
+color: #00f4ff !important;
+font-weight: bold !important;
+}
+
+.el-tabs__active-bar {
+background-color: #00f4ff !important;
+}
+
+.el-tabs__nav-wrap:after {
+background-color: #000 !important;
+}
+
+/* @Report: Top */
+.tips {
+    background: #ffed1b !important;
+}
+
+.tips span {
+    color: #000 !important;
+}
+
+.header-top {
+    color: #00f4ff !important;
+}
+
+.notification-wrapper {
+    background-color: #000 !important;
+    color: #00f4ff !important;
+    box-shadow: none !important;
+    border: 2px solid #00f4ff !important;
+}
+
+.notification-wrapper .noti-icon,
+.notification-wrapper .notice-bar {
+    color: #00f4ff !important;
+    font-family: "Blender Pro Book", serif !important;
+}
+
+/* @Report: Reset Color */
+.ivu-form-item-label,
+.head-base-msg,
+.el-table__row,
+.statistical *,
+button {
+    color: #000 !important;
+}
+
+/* @Report: Collapse Content */
+.el-collapse-item__content {
+border: 2px solid #00f4ff !important;
+border-top: none !important;
+}
+
+.el-collapse-item__header {
+font-weight: bold !important;
+color: #000 !important;
+}
