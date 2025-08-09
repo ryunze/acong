@@ -56,4 +56,6 @@ chrome.storage.onChanged.addListener((changes, area) => {
     
 });
 
+
+// Init
 init_dashboard_card();

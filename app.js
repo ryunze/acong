@@ -1,6 +1,7 @@
 const switchBtnWatermark = document.getElementById("switchBtnWatermark");
 const logoImageInput = document.getElementById("logoImageInput");
 const dashboardImageInput = document.getElementById("dashboardImageInput");
+const colorPrimaryButtonPicker = document.getElementById("colorPrimaryButtonPicker");
 
 // ### Watermark Listener
 chrome.storage.local.get("switchWatermark", (result) => {

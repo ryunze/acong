@@ -1,0 +1,51 @@
+/* Display Util. */
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.logo img {
+    height: auto;
+}
+
+/* Dashboard */
+.dashboard-card-toggle {
+    width: 36px;
+    height: 36px;
+    background: #ffffff;
+    position: absolute;
+    right: 1rem;
+    top: 207px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 11px rgba(0, 0, 0, .12);
+    cursor: pointer;
+    transform: translateX(5rem);
+    transition: 250ms all ease-in-out;
+}
+
+
+.case-center .el-card.box-card.is-always-shadow:first-child {
+min-height: 512px !important;
+    background-color: #ffffff;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+background: url(https://wallpapers-clan.com/wp-content/uploads/2024/03/nezuko-with-closed-eyes-white-desktop-wallpaper-preview.jpg) !important;
+}
+
+.case-center .el-card.box-card.is-always-shadow:first-child form, .case-center .el-card.box-card.is-always-shadow:first-child div.footer {
+	display: none;
+}
+
+.case-center .el-card.box-card.is-always-shadow:hover .dashboard-card-toggle {
+    transform: translateX(0);
+}

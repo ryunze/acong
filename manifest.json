@@ -20,8 +20,7 @@
     "host_permissions": ["https://cboss.kreditpintar.com/*"],
     "content_scripts": [{
         "matches": ["https://cboss.kreditpintar.com/*"],
-        "css": ["themes/default/theme.css", "content.css"],
-        "js": ["core.js", "content.js"],
-        "run_at": "document_idle"
+        "css": ["base.css", "themes/kimetsunoyaiba/theme.css"],
+"js": ["base.js"]
     }]
 }
